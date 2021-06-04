@@ -1,0 +1,117 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  padding: .77rem 0;
+  margin: 0;
+  background-color: #010c3f;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #6c41ec;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0 15% 5% 15%;
+  background-image: url('./background_photo_desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Temp-access-button button {
+  cursor: pointer;
+  width: 17rem;
+  padding: .77rem 0;
+  margin: 2rem 0;
+  border-radius: 54px;
+  border-width: 0px;
+  background-color: #6c41ec;
+  text-align: center;
+  font-size: .83rem;
+  transition: background-color .25s;
+  color: #fff;
+  font-weight: 500;
+}
+
+.Temp-access-button button:hover {
+  background-color: rgba(108, 65, 233, .7);
+}
+
+.Description {
+  margin: 1rem 0 1.5rem;
+  font-weight: 300;
+}
+
+.Login {
+  margin: .5rem 0 0;
+}
+
+.Login span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+#Temp-user {
+  width: 60%;
+  margin-top: 3rem;
+  padding: 1rem;
+  border: 3px solid black;
+  border-radius: 1rem;
+  background-color: rgba(106, 13, 173, .7);
+}
+
+#Temp-user h3 {
+  margin: 0;
+  padding-bottom: .3rem;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+}
+
+
+/* Media Queries to give a responsive design for smaller screens. */
+
+@media only screen and (max-width: 1020px) {
+  .App {
+    padding: 0 5% 10% 5%;
+  }
+
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #Temp-user {
+    width: 90%;
+  }
+}

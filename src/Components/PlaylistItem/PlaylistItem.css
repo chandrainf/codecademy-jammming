@@ -1,0 +1,12 @@
+.PlaylistItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.Edit:hover, .Delete:hover {
+  cursor: pointer;
+  color: #808080;
+  transition: color .25s;
+}
