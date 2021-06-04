@@ -1,8 +1,9 @@
+
+const clientId = 'Insert your clienID here';
+const redirectURI = 'http://jammming-chandrainf.surge.sh';
 let accessToken;
-const clientId = 'c67a6c8f79d64507956b34de94f3fa35';
 //const redirectURI = window.location.href;
 //const redirectURI = 'http://localhost:3000';
-const redirectURI = 'http://jammming-chandrainf.surge.sh';
 
 
 const Spotify = {
