@@ -1,5 +1,5 @@
 
-const clientId = 'e167cd4e88af4f6fbc9ee8aadd00570e';
+const clientId = '8c009aa0b82c4ca3889af4dc3551f8fa';
 const redirectURI = 'http://jammming-chandra.surge.sh';
 let accessToken;
 //const redirectURI = window.location.href;
