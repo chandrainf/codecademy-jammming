@@ -1,6 +1,6 @@
 
-const clientId = 'Insert your clienID here';
-const redirectURI = 'http://jammming-chandrainf.surge.sh';
+const clientId = 'e167cd4e88af4f6fbc9ee8aadd00570e';
+const redirectURI = 'http://jammming-chandra.surge.sh';
 let accessToken;
 //const redirectURI = window.location.href;
 //const redirectURI = 'http://localhost:3000';
